@@ -10490,19 +10490,20 @@ var Index = function Index(props) {
   return __jsx(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, __jsx("h1", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, "Batman TV Shows"), __jsx("ul", {
+    className: "pagination",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, props.shows.map(function (show) {
@@ -10510,7 +10511,7 @@ var Index = function Index(props) {
       key: show.id,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 10
+        lineNumber: 11
       },
       __self: this
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -10518,13 +10519,13 @@ var Index = function Index(props) {
       as: "/p/".concat(show.id),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 12
       },
       __self: this
     }, __jsx("a", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 13
       },
       __self: this
     }, show.name)));
@@ -10542,7 +10543,7 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
       switch (_context.prev = _context.next) {
         case 0:
           _context.next = 2;
-          return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default()('http://api.tvmaze.com/shows/1/akas');
+          return isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_5___default()('https://api.tvmaze.com/search/shows?q=batman');
 
         case 2:
           res = _context.sent;
@@ -10569,7 +10570,7 @@ _babel_runtime_corejs2_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(f
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!**************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CReactJs%5Cnext-learn-demo%5C6-fetching-data%5Cpages%5Cindex.js ***!
   \**************************************************************************************************************************************/
@@ -10592,5 +10593,5 @@ module.exports = dll_e9ad7d891b372a4221cf;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

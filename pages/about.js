@@ -1,9 +1,8 @@
-import Layout from '../components/MyLayout.js'
+import Layout from '../components/MyLayout.js';
+
 
 export default function About() {
   return (
-    <Layout>
-      <p>This is the about page</p>
-    </Layout>
+    <button type="button" class="btn btn-primary">Primary</button>
   )
 }

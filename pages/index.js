@@ -2,10 +2,11 @@ import Layout from '../components/MyLayout.js'
 import Link from 'next/link'
 import fetch from 'isomorphic-unfetch';
 
+
 const Index = props => (
   <Layout>
     <h1>Batman TV Shows</h1>
-    <ul>
+    <ul className="pagination">
       {props.shows.map(show => (
         <li key={show.id}>
           <Link href="/p/[id]" as={`/p/${show.id}`}>
@@ -31,4 +32,4 @@ return {
   };
 };
 
-export defaul
+export default Index;
