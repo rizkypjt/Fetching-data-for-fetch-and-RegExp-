@@ -10508,7 +10508,7 @@ var Index = function Index(props) {
     __self: this
   }, props.shows.map(function (show) {
     return __jsx("li", {
-      className: "list-group-item",
+      className: "list-group-item d-flex justify-content-between align-items-center",
       key: show.id,
       __source: {
         fileName: _jsxFileName,

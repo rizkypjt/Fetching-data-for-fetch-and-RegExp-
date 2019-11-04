@@ -8,7 +8,7 @@ const Index = props => (
     <h1>Batman TV Shows</h1>
     <ul className="list-group">
       {props.shows.map(show => (
-        <li className="list-group-item" key={show.id}>
+        <li className="list-group-item d-flex justify-content-between align-items-center" key={show.id}>
           <Link href="/p/[id]" as={`/p/${show.id}`}>
             <a>{show.name}</a>
           </Link>

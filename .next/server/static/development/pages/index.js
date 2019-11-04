@@ -1970,7 +1970,7 @@ const Index = props => __jsx(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_1_
   },
   __self: undefined
 }, props.shows.map(show => __jsx("li", {
-  className: "list-group-item",
+  className: "list-group-item d-flex justify-content-between align-items-center",
   key: show.id,
   __source: {
     fileName: _jsxFileName,
