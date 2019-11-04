@@ -10500,7 +10500,7 @@ var Index = function Index(props) {
     },
     __self: this
   }, "Batman TV Shows"), __jsx("ul", {
-    className: "pagination",
+    className: "list-group",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -10508,6 +10508,7 @@ var Index = function Index(props) {
     __self: this
   }, props.shows.map(function (show) {
     return __jsx("li", {
+      className: "list-group-item",
       key: show.id,
       __source: {
         fileName: _jsxFileName,

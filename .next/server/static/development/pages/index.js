@@ -1963,13 +1963,14 @@ const Index = props => __jsx(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_1_
   },
   __self: undefined
 }, "Batman TV Shows"), __jsx("ul", {
-  className: "pagination",
+  className: "list-group",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9
   },
   __self: undefined
 }, props.shows.map(show => __jsx("li", {
+  className: "list-group-item",
   key: show.id,
   __source: {
     fileName: _jsxFileName,

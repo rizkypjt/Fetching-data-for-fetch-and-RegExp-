@@ -10397,15 +10397,21 @@ var _jsxFileName = "C:\\ReactJs\\next-learn-demo\\6-fetching-data\\pages\\about.
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function About() {
-  return __jsx("button", {
-    type: "button",
-    "class": "btn btn-primary",
+  return __jsx(_components_MyLayout_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, "Primary");
+  }, __jsx("button", {
+    type: "button",
+    "class": "btn btn-primary",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "Primary"));
 }
 
 /***/ }),
